@@ -32,3 +32,27 @@ Stack 结构练习结束，总结如下：
 	pop()
 	peek()
 	size()
+
+2017/5/9
+
+这几天学习了 Queue Dequeue
+Queue 方法
+	__init__()
+	isEmpty()
+	size()
+	enqueue()
+	outqueue()
+Dequeue 方法
+	Dqueue()
+	is_empty()
+	size()
+	peek_front()
+	peek_rear()
+	remove_front()
+	remove_rear()
+	add_front()
+	add_rear()
+
+数据结构首先是为了更好的思考,因此操作需要考虑实际需要。另外，不能让一个结构有太多的操作，不然让思考变的复杂了。
+
+	
