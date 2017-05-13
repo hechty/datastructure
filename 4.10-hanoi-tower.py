@@ -11,7 +11,7 @@ def hanoi(n, A, B, C):
     else:
         hanoi(n-1, A, C, B)
         step += 1
-        print("第 {:^10d} 步: 移动 {:^4d} 号盘子到 {} 号杆".format(step,n,C))
+        print("第 {:^10d} 步: 从 {} 号杆移动 {:^4d} 号盘子到 {} 号杆".format(step, A,n,C))
         hanoi(n-1, B, A, C)
         
 s = int(input("请输入汉诺塔阶数:"))
